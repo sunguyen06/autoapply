@@ -1,0 +1,17 @@
+{
+  "name": "direct-consideration-autoapply",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "discover": "node src/cli.js discover",
+    "apply": "node src/cli.js apply",
+    "test": "node --test",
+    "install:browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.48.0"
+  }
+}
